@@ -1,0 +1,27 @@
+/* static/style.css */
+body {
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #131921 !important;
+}
+
+.navbar-brand {
+    color: #ff9900 !important;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.container h3 {
+    margin-top: 30px;
+    color: #131921;
+}
+
+button.btn-warning {
+    font-weight: bold;
+    background-color: #f0c14b;
+    border-color: #a88734;
+    color: #111;
+}
