@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/your-repo/amazon-clone.git'
+                git 'https://github.com/Dineshpardhu12/Amazon_project.git'
             }
         }
 
@@ -20,7 +20,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker tag amazon-clone yourdockerhub/amazon-clone'
-                    sh 'docker push yourdockerhub/amazon-clone'
+                    sh 'docker push dineshpardhu1/java'
                 }
             }
         }
