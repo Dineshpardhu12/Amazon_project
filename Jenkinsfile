@@ -19,7 +19,7 @@ pipeline {
         stage('Push Image') {
             steps {
                 script {
-                    sh 'docker tag amazon-clone yourdockerhub/amazon-clone'
+                    sh 'docker tag amazon-clone dineshpardhu1/java'
                     sh 'docker push dineshpardhu1/java'
                 }
             }
